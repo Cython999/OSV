@@ -1,0 +1,33 @@
+Fichier ==== disque dure (nom=d0)
+repertoir ou il se trouve=== LE SYSTEME
+FILENAME_MAX_SIZE=taille max nom  d'un fichier
+MAX_FILE=Nb max de fichier possible
+MAX_FILE_SIZE=taille max d'un fichier
+
+//----------------Couche 1-----------------
+
+///// A faire au debut de la creation du systeme
+//FORMATER FICHIER (le disque)
+./executable Nom_rep_existant taille_du_fichier
+                                  ----> cree le fichier d0 dans le repertoir "Nom_rep_existant"
+
+//virtual_disk_sos==variable qui represente le syteme
+                    ------> A initialisé avec le nom du repertoire
+
+
+!!! DANS write_block, verifier si position est dans le truc!!!!!
+
+
+
+//----------------Couche 2-----------------
+
+
+
+//----------------Couche 3-----------------
+
+
+
+//----------------Couche 4-----------------
+
+
+//----------------Couche 5-----------------
